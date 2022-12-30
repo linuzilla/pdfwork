@@ -1,0 +1,21 @@
+application:
+    pdf-manipulate:
+        chinese-font: classpath:/META-INF/fonts/bkai00mp.ttf
+        header:
+            text: "2018 台灣網際網路研討會"
+            x: 35.0
+            y: 800.0
+            alignment: LEFT
+            font-size: 10.0
+        doi:
+            format: "DOI: 10.6861/TANET.201810.%04d"
+            x: 555.0
+            y: 800.0
+            alignment: RIGHT
+            font-size: 10.0
+        page-number:
+            format: "%d"
+            x: 297.7
+            y: 45.0
+            alignment: CENTER
+            font-size: 10.0
